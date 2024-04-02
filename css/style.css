@@ -102,7 +102,7 @@ body {
 .headerr {
   background-color: rgb(134, 191, 241);
   border: 3px solid rgb(93, 62, 232);
-  height: 15vh;
+  height: 20vh;
 }
 .article {
   background-color: rgb(90, 90, 222);
@@ -112,14 +112,14 @@ body {
 }
 .footer {
   background-color: rgb(185, 185, 66);
-  height: 10vhx;
+  height: 25vh;
   display: flex;
   potition:absolute;
   bottom:0px;
 }
 .section {
   background-color: rgb(140, 229, 229);
-  height: 25vh;
+  height: 10vh;
   border: 2px solid white;
 }
 .div {
@@ -131,8 +131,8 @@ body {
 }
 .aside {
   background-color: rgb(207, 187, 163);
-  padding: 5px;
-  height: 10vh;
+  padding: 2px;
+  height: 4vh;
 }
 .footerr {
   background-color: olive;
