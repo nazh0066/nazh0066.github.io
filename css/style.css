@@ -42,30 +42,30 @@ body {
   border-radius: 40px;
 }
 .image1 {
-  max-height: 480px;
+  max-height: 50vh;
   vertical-align: initial;
 }
 .photo2 {
-  max-height: 480px;
+  max-height: 50vh;
   vertical-align: initial;
 }
 .photo3 {
-  max-height:20vh;
+  max-height:50vh;
   vertical-align: initial;
 }
 .photo4 {
-  max-height: 20vh;
+  max-height: 50vh;
   vertical-align: initial;
 }
 .list1 {
   list-style-type: circle;
 }
 .photo5 {
-  max-height: 480px;
+  max-height: 50vh;
   vertical-align: initial;
 }
 .photo6 {
-  max-height: 480px;
+  max-height: 50vh;
   vertical-align: initial;
 }
 .photo7 {
@@ -73,7 +73,7 @@ body {
   height: 144px;
 }
 .photo8 {
-  max-height: 607.2px;
+  max-height: 40.2vh;
   vertical-align: initial;
 }
 .photo9 {
