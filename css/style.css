@@ -84,10 +84,10 @@ body {
   vertical-align: initial;
 }
 .photo9 {
-  max-height: 310px;
-  min-height: 244px;
+  max-height: 40vh;
+  min-height: 20px;
   vertical-align: initial;
-  display: flex;
+  display:initial;
 }
 .header {
   background-color: rgb(129, 186, 236);
