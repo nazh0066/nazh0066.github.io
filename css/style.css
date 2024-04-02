@@ -112,7 +112,7 @@ body {
 }
 .footer {
   background-color: rgb(185, 185, 66);
-  height: 10vh;
+  height: 12vh;
   display: flex;
   potition:absolute;
   bottom:0px;
