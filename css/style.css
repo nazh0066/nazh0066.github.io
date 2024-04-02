@@ -84,10 +84,11 @@ body {
   vertical-align: initial;
 }
 .photo9 {
-  max-height: 40vh;
-  min-height: 20px;
+  max-height: 35vh;
+  min-height: 20vh;
   vertical-align: initial;
   display:initial;
+  potition: absolute;
 }
 .header {
   background-color: rgb(129, 186, 236);
@@ -111,11 +112,14 @@ body {
 }
 .footer {
   background-color: rgb(185, 185, 66);
-  height: 100px;
+  height: 10vhx;
+  display: flex;
+  potition:absolute;
+  bottom:0px;
 }
 .section {
   background-color: rgb(140, 229, 229);
-  height: 100px;
+  height: 25vh;
   border: 2px solid white;
 }
 .div {
@@ -127,8 +131,8 @@ body {
 }
 .aside {
   background-color: rgb(207, 187, 163);
-  margin: 5px;
-  height: 20px;
+  padding: 5px;
+  height: 10vh;
 }
 .footerr {
   background-color: olive;
