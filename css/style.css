@@ -43,18 +43,22 @@ body {
 }
 .image1 {
   max-height: 50vh;
+  min-height: 20vh;
   vertical-align: initial;
 }
 .photo2 {
   max-height: 50vh;
+  min-height: 20vh;
   vertical-align: initial;
 }
 .photo3 {
   max-height:50vh;
+  min-height: 20vh;
   vertical-align: initial;
 }
 .photo4 {
   max-height: 50vh;
+  min-height: 20vh;
   vertical-align: initial;
 }
 .list1 {
@@ -62,10 +66,12 @@ body {
 }
 .photo5 {
   max-height: 50vh;
+  min-height: 20vh;
   vertical-align: initial;
 }
 .photo6 {
   max-height: 50vh;
+  min-height: 20vh;
   vertical-align: initial;
 }
 .photo7 {
@@ -74,10 +80,12 @@ body {
 }
 .photo8 {
   max-height: 40.2vh;
+  min-height: 19.2vh;
   vertical-align: initial;
 }
 .photo9 {
   max-height: 310px;
+  min-height: 244px;
   vertical-align: initial;
   display: flex;
 }
@@ -115,6 +123,7 @@ body {
   height: 60vh;
   float: right;
   width: 46%;
+  display:initial;
 }
 .aside {
   background-color: rgb(207, 187, 163);
