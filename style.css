@@ -1,0 +1,124 @@
+* {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-size: 480px;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: left -45px bottom -70px, right -50px bottom -70px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.wrapper > * {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  flex: 1 100%;
+}
+.namanim span {
+  color: aliceblue;
+  background-color: brown;
+  border-radius: 15px;
+}
+.contact2 {
+  color: aliceblue;
+  background-color: brown;
+  border-radius: 15px;
+}
+.header {
+  background: rgb(66, 99, 206, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+}
+.nav {
+  background: rgb(84, 112, 207, 0.5);
+}
+.ulnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linav {
+  list-style: none;
+  background-color: brown;
+  margin: 5px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.href {
+  text-decoration: none;
+  text-size-adjust: auto;
+  color: aliceblue;
+}
+pre {
+  font-size: 15px;
+}
+.main {
+  background-color: rgb(133, 158, 239, 0.5);
+  height: auto;
+  align-items: center;
+  padding: 35px;
+  margin: 15px;
+  font-size: 20px;
+  text-align: justify;
+}
+.aside {
+  background-color: rgb(46, 94, 250, 0.5);
+}
+.footer {
+  background-color: rgb(8, 63, 244, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footil {
+  text-decoration: none;
+}
+.footul {
+  text-decoration: none;
+}
+.ingfo {
+  height: auto;
+  padding: 35px;
+  width: auto;
+  margin: 15px;
+  font-size: 14px;
+  text-align: left;
+}
+@media all and (min-width: 800px) {
+  .main {
+    flex: 2;
+  }
+  .aside {
+    order: 2;
+  }
+  .main {
+    order: 1;
+  }
+  .footer {
+    order: 3;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .aside1 {
+    flex: 1;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-size: 524px;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
